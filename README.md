@@ -1,9 +1,16 @@
 docker-easy-steps
 
+#One command that automatically downloads and installs Docker completely.
+   
     curl -fsSL https://get.docker.com | sudo sh
+    
 
+#It makes Docker automatically start every time your computer/server reboots.
+   
     bashsudo systemctl enable docker
-
+    
+#It starts Docker right now immediately on your system.
+   
     sudo systemctl start docker
 
 Makes Docker auto-start on boot and starts it immediately.
