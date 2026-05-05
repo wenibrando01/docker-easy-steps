@@ -38,7 +38,7 @@ Step 5 — Test Docker Works
     docker run hello-world
 
 
- Installation & Setup/ Docker terminal commnands
+#Docker terminal commnands
  
     bashsudo apt update
     
